@@ -39,7 +39,7 @@ depend: .depend
 	$(CC) $(CFLAGS) $(CDEFS) -c $<
 
 $(TARGET): $(OBJS)
-	$(CC) $(CFLAGS) $(CLIB) $(OBJS) -o $@
+	$(CC) $(CFLAGS) $(OBJS) -o $@ $(CLIB)
 
 release:
 	@$(MAKE) clean
