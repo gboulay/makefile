@@ -1,10 +1,10 @@
 makefile
 ========
 
-The makefile `makefile_single_target' can compile any c code into an executable.
+The makefile `Makefile' can compile any c code into an executable.
 
-Only a few minor change are needed to compile a library.
+Only a few minor change are needed to compile it into a library.
 
-The makefile keep tracks of file change and recompile only required files.
+The makefile keep tracks of file change and recompile only the required files.
 
-usage: `make'
+usage: `make' or `make release'
