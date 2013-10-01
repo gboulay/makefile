@@ -41,6 +41,7 @@ depend: .depend
 $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) $(OBJS) -o $@ $(CLIB)
 
+# Requires gcc-multilib
 release:
 	@$(MAKE) clean
 	@$(MAKE) x86-release
@@ -68,7 +69,5 @@ clean: smallclean
 
 smallclean:
 	@rm -f *.o
-
-FORCE:
 
 .PHONY: all release superclean clean smallclean x86 x64 x86-release x64-release depend
