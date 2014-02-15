@@ -11,7 +11,7 @@ modify the `TARGET` variable at the beginning of the script.
 usage: `make` or `make release`
 
 Features
---------
+========
 
 It support the building of both x86 and x86-64 architecture, but you need to
 have gcc-multilib installed.
@@ -21,9 +21,9 @@ Only a few minor change are needed to compile it into a library.
 The makefile keep tracks of file changes and recompile only the required files.
 
 Notes
------
+=====
 
-Be carefulle, it doesn't keep changes made to the makefile itself or if you
+Be careful, it doesn't keep changes made to the makefile itself or if you
 changed to a different OS/architecture.
 
-There is no support for subdirectories.
+There is no support for sub-directories.
