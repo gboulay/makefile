@@ -5,7 +5,7 @@ TARGET = INSERT_NAME_HERE
 CC = gcc
 CFLAGS = -Wall
 CFLAGS-RELEASE = -Werror -O2
-CLFAGS-DEBUG = -ggdb
+CFLAGS-DEBUG = -ggdb
 CLIB =
 CDEFS =
 
